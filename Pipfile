@@ -9,3 +9,10 @@ python_version = '3.11'
 [packages]
 Django = "==4.*"
 django-environ = "==0.10.*"
+mysqlclient = "==2.*"
+boto3 = "==1.28.*"
+django-storages = "==1.13.*"
+django-money = "==3.*"
+
+[dev-packages]
+ipython = "*"
